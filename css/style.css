@@ -1,0 +1,219 @@
+/* Start Ruls*/
+*{
+    margin:0;
+    padding:0;
+    font-family: monospace;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+    height:1600px;
+}
+.container{
+	margin-left:20px;
+	margin-right: 20px;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration:none;
+}
+
+/* End Main Ruls*/
+
+/*Start Header*/
+.header{
+    height:600px;
+    background-image: url(../image/banner.jpg);
+    background-size:cover;
+    position:relative;
+    background-attachment:fixed;
+    background-position: bottom;
+    box-shadow: -17px 10px 20px 0px #DDD;
+
+}
+.header .back{
+    position:absolute;
+    height:600px;
+    background-color: #4b4b5dcf;
+    width:100%;
+}
+.header .part1{
+    overflow: hidden;
+    padding-top:30px;
+}
+.header .part1 h1{
+    float:left;
+    padding-top:15px;
+    color:#fff;
+    font-size: 2.5em;
+}
+.header .part1 ul{
+    float:right;
+    margin-top: 30px;
+}
+.header .part1 ul li{
+    float:left;
+    
+}
+.header .part1 ul li a{
+    font-size: 19px;
+    padding: 20px;
+    color:#fff;
+}
+.header .part2 {
+    margin-top: 50px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    overflow:hidden;
+    
+}
+.header .part2 h1 {
+    margin-top:20px;
+    color:#Fff;
+    font-size:3em;
+    font-family: monospace;
+}
+.header .part2 div{
+    display: inline-block;
+    width: 32%;
+    height: 150px;
+    margin-top:77px
+}
+.header .part2 div i{
+    color:#24b2dc;
+}
+.header .part2 div h3{
+    color:#f8f8f8c7;
+    font-size:17px;
+    margin-top:15px;
+}
+.header .part2 .box{
+        border-left: 1px solid #FFF;
+        border-right: 1px solid #FFF;
+}
+.header .part2 div p{
+    font-size:17px;
+    color:#ddddddc7;
+    margin-top:10px;
+}
+.header .part2 input{
+    width:150px;
+    height:45px;
+    background-color:#fff0;
+    border-radius:99px 11px;
+    border: 2px solid #24b2dc;
+    margin-top:30px
+}
+.header .part2 input:hover{
+    background-color:#24b2dc;
+}
+/*End header*/
+/*start Artical*/
+.artical{
+    height:500px;
+    overflow:hidden;
+    
+}
+.artical .a{
+    float:left;
+    width:50%;
+    margin-top:50px;
+    
+}
+.artical .a img{
+    margin-top:25px; 
+    border-radius:50%;
+    transition: .5s
+    
+}
+.artical .a img:hover{
+    border-radius:4%;
+    transform: rotate(360deg) /* fantastic*/
+}
+
+.artical .a h2{
+    margin-top:15px;
+    font-size:1.75em;
+    color:#555;
+    line-height: 1.5em;
+}
+.artical .a p{
+    margin-top:20px;
+    color:#444;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+.artical .a input{
+    width:150px;
+    height:45px;
+    background-color:#fff;
+    border-radius:99px 11px;
+    border: 2px solid #24b2dc;
+    margin-top:30px
+}
+.artical .a input:hover{
+    background-color:#474654;
+    
+}
+
+/*End Artical*/
+/*Start Footer*/
+footer{
+    background-color:#24b2dc;
+    height:520px;
+    position:relative;
+    
+}
+footer .contact{
+    padding-top:60px;
+}
+footer .contact h3{
+    font-size:2em;
+    color:#FFF;
+    margin-bottom:50px
+}
+footer .contact form{
+    overflow:hidden;
+}
+footer .contact form button{
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+	width:300px;
+	padding: 15px;
+	background: #fff;
+	color:#24b2dc;
+}
+footer .contact form input{
+    width:500px;
+    height:40px;
+    float:left;
+    margin: 0 35px 35px 0;
+    border:1px solid #ffffff82;
+    border-radius: 10px;
+    padding-left:15px;
+    background-color:#f9f9f9;
+    
+
+}
+footer .contact form #message{
+    height:200px;
+    widows: 60%;
+}
+footer .contact form input:hover{
+
+    color:#24b2dc
+}
+footer p{
+    color:#2f3135;
+    font-size:1.1em;
+	padding: 20px;
+}
+footer p a{
+    text-decoration: none;
+    color:#24b2dc;
+}
+
